@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jumbotron {
+    background-color: rgb(57, 114, 235);
+    border-radius: 0;
+}
+
+.forecast {
+    background-color: rgba(105, 100, 136, 0.89);
+    color: white;
+    font-size: small;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.low {
+    background-color: green;
+    padding: 4px;
+
+}
+
+.medium {
+    background-color: yellow;
+    padding: 4px;
+}
+
+.high {
+    background-color: red;
+    padding: 4px;
+}
+
+li:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header h1 {
+    color: white;
+}
